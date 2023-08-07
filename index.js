@@ -54,7 +54,7 @@ $(document).ready(function(){
       $("#badge").show();
       document.getElementById("badge").innerHTML= counter;
     }  
-    else if (counter = 0){
+    else if (counter == 0){
       $("#badge").hide();
     }  
   });
