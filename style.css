@@ -155,9 +155,7 @@ display: block;
   border: 2px red solid;
   opacity: 0.5
 }
-#greet{
-  /* display: none; */
-}
+
 .second{
   display: flex;
   align-items: center;
