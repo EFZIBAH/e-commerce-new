@@ -1,3 +1,9 @@
+<?php
+$login = $_SESSION["login"]
+if (empty($login)) {
+  header("location: /form")
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
