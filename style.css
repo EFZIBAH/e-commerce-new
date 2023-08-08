@@ -140,9 +140,7 @@ display: block;
 }
 .sub-image{
   display: flex;
-  /* width: 400px; */
- 
-  /* background-color: pink; */
+ overflow-x: scroll;
   padding: 30px 40px;
 
 }
@@ -156,6 +154,9 @@ display: block;
   border-radius: 5px;
   border: 2px red solid;
   opacity: 0.5
+}
+#greet{
+  /* display: none; */
 }
 .second{
   display: flex;
